@@ -18,7 +18,7 @@ int main() {
             zero++;
 
         // Asking user if they want to continue
-        printf("Do you want to enter another number? (y/n): ");
+        printf(" want to enter another number? (y/n): ");
         scanf(" %c", &choice); 
 
     } while (choice == 'y' || choice == 'Y');
@@ -29,4 +29,5 @@ int main() {
     printf("\nCount of Zeroes: %d\n", zero);
 
     return 0;
+
 }
